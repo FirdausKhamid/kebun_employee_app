@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:kebun_employee_app/bricks/Widgets%20Example/gradient_button_rounded.dart';
+import 'package:kebun_employee_app/screens/report/insert_item_details.dart';
 
 class Report extends StatelessWidget {
   const Report({super.key});
@@ -39,7 +40,15 @@ class Report extends StatelessWidget {
             children: [
               GradientButtonFb4(
                 text: "Add Report",
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => InsertDetails(
+                              title: '',
+                            )),
+                  );
+                },
               ),
               const SizedBox(
                 height: 20,

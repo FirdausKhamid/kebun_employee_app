@@ -42,32 +42,28 @@ class Activity extends StatelessWidget {
               padding: const EdgeInsets.all(12),
               child: ImageCard(
                 text: 'Fertilization',
-                imageUrl:
-                    'https://live.staticflickr.com/4303/35496429643_748bd30fc8_b.jpg',
+                imageUrl: 'assets/activity_fertilize.jpeg',
               ),
             ),
             Padding(
               padding: const EdgeInsets.all(12),
               child: ImageCard(
                 text: 'Herbicide',
-                imageUrl:
-                    'https://sodsolutions.com/wp-content/uploads/2021/09/man-spraying-herbicide-on-weeds-1024x576.jpg',
+                imageUrl: 'assets/herbicide_activity.jpeg',
               ),
             ),
             Padding(
               padding: const EdgeInsets.all(12),
               child: ImageCard(
                 text: 'Pruning',
-                imageUrl:
-                    'https://www.hb.com.my/vi-content/uploads/2017/06/pruning.jpg',
+                imageUrl: 'assets/pruning_activity.jpeg',
               ),
             ),
             Padding(
               padding: const EdgeInsets.all(12),
               child: ImageCard(
                 text: 'Road Maintenance',
-                imageUrl:
-                    'https://www.truegridpaver.com/wp-content/uploads/2021/01/muddy-road.png',
+                imageUrl: 'assets/roadfix_activity.png',
               ),
             ),
             InkWell(
@@ -75,8 +71,7 @@ class Activity extends StatelessWidget {
                 padding: const EdgeInsets.all(12),
                 child: ImageCard(
                   text: 'Harvest',
-                  imageUrl:
-                      'https://www.asianagri.com/wp-content/uploads/2018/04/technology-in-oil-palm-plantation.png',
+                  imageUrl: 'assets/harvest_activity.png',
                 ),
               ),
               onTap: () {

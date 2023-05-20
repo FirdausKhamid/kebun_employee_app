@@ -20,7 +20,7 @@ class ImageCard extends StatelessWidget {
           ClipRRect(
             // Radius
             borderRadius: BorderRadius.circular(20),
-            child: Image.network(
+            child: Image.asset(
               imageUrl,
               fit: BoxFit.cover,
               width: MediaQuery.of(context).size.width,
