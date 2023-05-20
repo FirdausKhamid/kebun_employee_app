@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:kebun_employee_app/bricks/Widgets%20Example/promo_card.dart';
-
+import 'package:kebun_employee_app/screens/activity/harvest.dart';
 import '../../bricks/Widgets Example/horizontal_card.dart';
 
 class Activity extends StatelessWidget {
@@ -25,7 +25,7 @@ class Activity extends StatelessWidget {
                     'Activity',
                     style: TextStyle(
                       color: Colors.white,
-                      fontSize: 18,
+                      fontSize: 25,
                       fontWeight: FontWeight.bold,
                     ),
                   ),
@@ -70,13 +70,21 @@ class Activity extends StatelessWidget {
                     'https://www.truegridpaver.com/wp-content/uploads/2021/01/muddy-road.png',
               ),
             ),
-            Padding(
-              padding: const EdgeInsets.all(12),
-              child: ImageCard(
-                text: 'Harvest',
-                imageUrl:
-                    'https://www.asianagri.com/wp-content/uploads/2018/04/technology-in-oil-palm-plantation.png',
+            InkWell(
+              child: Padding(
+                padding: const EdgeInsets.all(12),
+                child: ImageCard(
+                  text: 'Harvest',
+                  imageUrl:
+                      'https://www.asianagri.com/wp-content/uploads/2018/04/technology-in-oil-palm-plantation.png',
+                ),
               ),
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => Harvest()),
+                );
+              },
             ),
           ],
         )),

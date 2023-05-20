@@ -40,7 +40,138 @@ class Report extends StatelessWidget {
               GradientButtonFb4(
                 text: "Add Report",
                 onPressed: () {},
-              )
+              ),
+              const SizedBox(
+                height: 20,
+              ),
+              Container(
+                alignment: Alignment.centerLeft,
+                child: const Text(
+                  '  Work History',
+                  textAlign: TextAlign.left,
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold,
+                    // align text to the left
+                  ),
+                ),
+              ),
+              Flexible(
+                  child: ListView(
+                children: [
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Container(
+                      decoration: BoxDecoration(
+                          color: Colors.white,
+                          borderRadius: BorderRadius.circular(10)),
+                      child: Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: ListTile(
+                          leading: SizedBox(
+                              width: 50,
+                              child: Image.asset('assets/fruit.png')),
+                          title: const Text('Harvesting'),
+                          subtitle: const Text('Monday | 12 May'),
+                          trailing: Text('20 pc'),
+                        ),
+                      ),
+                    ),
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Container(
+                      decoration: BoxDecoration(
+                          color: Colors.white,
+                          borderRadius: BorderRadius.circular(10)),
+                      child: Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: ListTile(
+                          leading: SizedBox(
+                              width: 50, child: Image.asset('assets/leaf.png')),
+                          title: const Text('Pruning'),
+                          subtitle: const Text('Saturday | 10 May'),
+                          trailing: Text('20 trees'),
+                        ),
+                      ),
+                    ),
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Container(
+                      decoration: BoxDecoration(
+                          color: Colors.white,
+                          borderRadius: BorderRadius.circular(10)),
+                      child: Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: ListTile(
+                          leading: SizedBox(
+                              width: 50,
+                              child: Image.asset('assets/fruit.png')),
+                          title: const Text('Harvesting'),
+                          subtitle: const Text('Monday | 12 May'),
+                          trailing: Text('20 pc'),
+                        ),
+                      ),
+                    ),
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Container(
+                      decoration: BoxDecoration(
+                          color: Colors.white,
+                          borderRadius: BorderRadius.circular(10)),
+                      child: Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: ListTile(
+                          leading: SizedBox(
+                              width: 50, child: Image.asset('assets/leaf.png')),
+                          title: const Text('Pruning'),
+                          subtitle: const Text('Saturday | 10 May'),
+                          trailing: Text('20 trees'),
+                        ),
+                      ),
+                    ),
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Container(
+                      decoration: BoxDecoration(
+                          color: Colors.white,
+                          borderRadius: BorderRadius.circular(10)),
+                      child: Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: ListTile(
+                          leading: SizedBox(
+                              width: 50, child: Image.asset('assets/leaf.png')),
+                          title: const Text('Pruning'),
+                          subtitle: const Text('Saturday | 10 May'),
+                          trailing: Text('20 trees'),
+                        ),
+                      ),
+                    ),
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Container(
+                      decoration: BoxDecoration(
+                          color: Colors.white,
+                          borderRadius: BorderRadius.circular(10)),
+                      child: Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: ListTile(
+                          leading: SizedBox(
+                              width: 50, child: Image.asset('assets/leaf.png')),
+                          title: const Text('Pruning'),
+                          subtitle: const Text('Saturday | 10 May'),
+                          trailing: Text('20 trees'),
+                        ),
+                      ),
+                    ),
+                  ),
+                ],
+              )),
             ],
           ),
         )));

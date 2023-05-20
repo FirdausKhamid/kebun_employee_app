@@ -16,8 +16,8 @@ class GradientButtonFb4 extends StatelessWidget {
         decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(borderRadius),
             gradient: const LinearGradient(colors: [
-              Color.fromARGB(255, 0, 0, 0),
-              Color.fromARGB(255, 0, 0, 0)
+              Color.fromARGB(255, 44, 100, 45),
+              Color.fromARGB(255, 44, 100, 45),
             ])),
         child: ElevatedButton(
             style: ButtonStyle(
@@ -35,7 +35,7 @@ class GradientButtonFb4 extends StatelessWidget {
               child: Row(
                 children: [
                   Icon(
-                    Icons.add,
+                    Icons.camera_alt,
                     color: Colors.white,
                   ),
                   SizedBox(
@@ -44,7 +44,7 @@ class GradientButtonFb4 extends StatelessWidget {
                   Text(
                     text,
                     style: const TextStyle(
-                        fontSize: 10,
+                        fontSize: 20,
                         fontWeight: FontWeight.bold,
                         color: Colors.white),
                   ),

@@ -25,7 +25,7 @@ class _RegisterPageState extends State<RegisterPage> {
                 padding: const EdgeInsets.fromLTRB(50, 10, 50, 10),
                 child: Container(
                   alignment: Alignment.centerLeft,
-                  child: Text(
+                  child: const Text(
                     'Register',
                     textAlign: TextAlign.right,
                     style: TextStyle(fontSize: 40, fontWeight: FontWeight.w700),

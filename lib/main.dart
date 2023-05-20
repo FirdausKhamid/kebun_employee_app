@@ -80,8 +80,8 @@ class _MyHomePageState extends State<MyHomePage> {
               backgroundColor: primaryColor,
             ),
             BottomNavigationBarItem(
-              label: "Yield",
-              icon: Icon(Icons.bar_chart_rounded),
+              label: "Payment",
+              icon: Icon(Icons.monetization_on_outlined),
               backgroundColor: primaryColor,
             )
           ],
